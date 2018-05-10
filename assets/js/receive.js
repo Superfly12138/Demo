@@ -2,7 +2,7 @@ $.ajax(
     {
         type:"get",
         url:"./json/posts.json",
-        data:{status:"ok"},
+        data:{"status":"ok"},
         dataType:"json",
         success:function (data,textStatus)
         {
