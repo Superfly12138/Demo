@@ -2,8 +2,8 @@ $.ajax(
     {
         type:"get",
         url:"https://aiicy.com/api/v2/posts",
-        data:{a:1,b:2},
-        dataType:"jsonp",
+        data:{status:"ok"},
+        dataType:"json",
         success:function (data,textStatus)
         {
             var list =data["list"];
