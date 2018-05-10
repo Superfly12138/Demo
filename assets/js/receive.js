@@ -1,7 +1,7 @@
 $.ajax(
     {
         type:"get",
-        url:"https://aiicy.com/api/v2/posts",
+        url:"./json/posts.json",
         data:{status:"ok"},
         dataType:"json",
         success:function (data,textStatus)
