@@ -4,6 +4,7 @@ $.ajax(
         url:"./json/posts.json",
         data:{"status":"ok"},
         dataType:"json",
+        crossDomain: true,
         success:function (data,textStatus)
         {
             var list =data["list"];
